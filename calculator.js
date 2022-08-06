@@ -79,7 +79,7 @@ calcKeys.addEventListener('click', (event) => {
 	    	displayResult.textContent = (!Number.isInteger(finalResult)) ? finalResult.toFixed(2) : 
 	    								(finalResult.toString().length >= 16) ? finalResult.toExponential(2) : finalResult ;
 	    } else {
-	    	displayResult.textContent = 'Math Error';
+	    	displayResult.textContent = 'MATH ERROR';
 	    } 
   }
 	calculator.dataset.previousKeyType = type;
